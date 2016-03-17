@@ -1,0 +1,19 @@
+* Preparing for the build
+
+You will need the following to build the cross compiler.
+
+    - An Unix-like environment (Windows users)
+    - GCC (existing release you wish to replace)
+    - G++ (if building a version of GCC >= 4.8.0)
+    - GNU Make
+    - GNU Bison
+    - Flex
+    - GNU GMP
+    - GNU MPFR
+    - GNU MPC
+    - Texinfo
+    - ISL (optional)
+    - CLooG (optional)
+
+On Ubuntu:
+$ sudo apt-get install gcc g++ automake bison flex libgmp3-dev texinfo
